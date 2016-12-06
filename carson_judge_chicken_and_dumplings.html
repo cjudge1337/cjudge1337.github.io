@@ -42,6 +42,31 @@
       <li>Cover for 15 minutes. DO NOT OPEN UNTIL DONE.</li>
     </ol>
   </section>
+  <section id='reviews'>
+    <h2>Reviews</h2>
+    <form action="/reviews" method="post">
+      <label for='name'>Reviewer Name: <input id='name' type="text" name="name"></label>
+      <br>
+      <label for="rating">Rating: </label>
+      <label for="rating">5 <input type="radio" name="rating" value="5" checked></label>
+      <label for="rating">4 <input type="radio" name="rating" value="4"></label>
+      <label for="rating">3 <input type="radio" name="rating" value="3"></label>
+      <label for="rating">2 <input type="radio" name="rating" value="2"></label>
+      <label for="rating">1 <input type="radio" name="rating" value="1"></label>
+      <br>
+      <label for="expertise"> Cooking Expertise <select id="expertise" name="expertise">
+        <option value="Select Cooking Expertise" disabled selected>Select Cooking Expertise</option>
+        <option value="Sometimes Cook">Sometimes Cook</option>
+        <option value="Cook Everyday">Cook Everyday</option>
+        <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+        <option value="Professional Chef">Professional Chef</option>
+      </select></label>
+      <br>
+      <label> Review <textarea name="review" rows="10" cols="50">Write something here</textarea></label>
+      <br>
+      <input type="submit" value="Submit Review">
+    </form>
+  </section>
   <footer>
     <p>This recipe came from my family and as such is not readily available online.</p>
   </footer>
