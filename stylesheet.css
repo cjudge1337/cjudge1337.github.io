@@ -3,6 +3,11 @@ body {
   background-color: #FEFFF1;
 }
 
+figure img {
+  height: 200px;
+  width: 400px;
+}
+
 h1 {
   font-size: 38px;
 }
@@ -53,7 +58,7 @@ input[type="radio"] {
 }
 
 nav {
-  display: inline-block;;
+  float: right;
 }
 
 nav ul li {
@@ -106,4 +111,14 @@ textarea {
 
 label {
   display: block;
+}
+
+header > img {
+  float: left;
+}
+
+header:after {
+  content: "";
+  display: block;
+  clear: both;
 }

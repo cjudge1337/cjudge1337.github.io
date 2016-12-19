@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <script type="text/javascript" src=external_javascript_example.js/></script>
   <link rel="stylesheet" href="stylesheet.css">
+  <!-- <link rel="stylesheet" href="css_custom_reset.css"> -->
+  <link rel="stylesheet" href="custom_grid.css">
+
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -29,6 +32,7 @@
   </header>
   <body>
     <h2>Chicken and Dumplings</h2>
+    <div class="col col-1-3">
     <aside>
       <h2 id="ingredients">Ingredients</h2>
       <ul class="ingredients-list">
@@ -40,6 +44,8 @@
         <li>Lots of chicken</li>
       </ul>
     </aside>
+  </div>
+  <div class="col col-2-3">
     <section>
     <h2 id=description>Description</h2>
     <p>A recipe for an easy-to-make, yet delicious homemade chicken and
@@ -81,6 +87,7 @@
       <label> Review <textarea name="review" rows="10" cols="50">Write something here</textarea></label>
       <br>
       <input type="submit" value="Submit Review">
+  </div>
     </form>
   </section>
   <footer>
