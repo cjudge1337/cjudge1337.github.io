@@ -51,3 +51,59 @@ input[type="radio"] {
     /*background-image: url("https://github.com/appacademy/curriculum/blob/master/html-css/assets/stars.png");*/
     vertical-align: bottom;
 }
+
+nav {
+  display: inline-block;;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 20px;
+  display: block;
+}
+
+body {
+    margin: 0 auto; /* Common Centering Technique */
+    width: 900px;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.ingredients-list li {
+  margin: 15px 0px;
+}
+
+section ol li {
+  margin: 15px 0px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 175px;
+}
+
+select {
+  margin: 10px 0;
+  width: 180px;
+}
+
+textarea {
+  width: 350px;
+}
+
+label {
+  display: block;
+}

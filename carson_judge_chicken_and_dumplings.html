@@ -29,15 +29,6 @@
   </header>
   <body>
     <h2>Chicken and Dumplings</h2>
-    <section>
-    <h2 id=description>Description</h2>
-    <p>A recipe for an easy-to-make, yet delicious homemade chicken and
-    dumplings dish.</p>
-    <figure>
-      <img src="https://images-gmi-pmc.edge-generalmills.com/21fd9c91-b2c2-456b-ab60-ae5ba66b9a24.jpg" alt="chicken abd dumplings">
-    </figure>
-    <figcaption><a href="https://en.wikipedia.org/wiki/Chicken_and_dumplings">The wikipedia page with more info.</a>
-    </figcaption>
     <aside>
       <h2 id="ingredients">Ingredients</h2>
       <ul class="ingredients-list">
@@ -49,6 +40,16 @@
         <li>Lots of chicken</li>
       </ul>
     </aside>
+    <section>
+    <h2 id=description>Description</h2>
+    <p>A recipe for an easy-to-make, yet delicious homemade chicken and
+    dumplings dish.</p>
+    <figure>
+      <img src="https://images-gmi-pmc.edge-generalmills.com/21fd9c91-b2c2-456b-ab60-ae5ba66b9a24.jpg" alt="chicken abd dumplings">
+    </figure>
+    <figcaption><a href="https://en.wikipedia.org/wiki/Chicken_and_dumplings">The wikipedia page with more info.</a>
+    </figcaption>
+
     <h2 id="directions">Directions</h2>
     <ol>
       <li>Make broth of chicken, parsley, celery, bay leaves - about 2 inches deep.</li>
@@ -62,14 +63,14 @@
     <form id="review-form" action="/reviews" method="post">
       <label for='name'>Reviewer Name: <input id='name' type="text" name="name"></label>
       <br>
-      <label for="rating">Rating: </label>
+      <label for="rating"></label>
       <label for="rating">5 <input type="radio" name="rating" value="5" checked></label>
       <label for="rating">4 <input type="radio" name="rating" value="4"></label>
       <label for="rating">3 <input type="radio" name="rating" value="3"></label>
       <label for="rating">2 <input type="radio" name="rating" value="2"></label>
       <label for="rating">1 <input type="radio" name="rating" value="1"></label>
       <br>
-      <label for="expertise"> Cooking Expertise <select id="expertise" name="expertise">
+      <label for="expertise"><select id="expertise" name="expertise">
         <option value="Select Cooking Expertise" disabled selected>Select Cooking Expertise</option>
         <option value="Sometimes Cook">Sometimes Cook</option>
         <option value="Cook Everyday">Cook Everyday</option>
